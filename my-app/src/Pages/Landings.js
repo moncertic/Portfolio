@@ -4,16 +4,16 @@ import 'animate.css';
 import '../App.css'
 function LandingPage() {
   return (
-    <div style={{ height: '150vh' }}>
-      <div style={{ marginTop: '100vh' }}>
+    <div style={{ height: '150vh',color:'white', marginTop:'100vh',fontFamily:'Verdana', }}>
+      
         <TrackVisibility once>
           {({ isVisible }) =>
-            <div className={isVisible ? "animate__animated animate__backInLeft" : ""}>
-              <h1 className="animate__animated animate__bounce">Welcome</h1>
+            <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+              <h1> Welcome</h1>
             </div>
           }
         </TrackVisibility>
-      </div>
+  
     </div>
   );
 }
