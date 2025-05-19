@@ -6,8 +6,13 @@ import '../App.css';
 function Aboutme (){
 return(
 
-<div className='about'>
- <div className='animate__animated animate__fadeInUp'>
+
+ <div id='about' className='animate__animated animate__fadeInUp'>
+  
+  <div className='proffs'>
+  <img src={divider} alt="Ruben Gerber" />
+    </div>
+    
         <p>Hello,my name is Ruben Gerber and I am a developer all the way from ZA.</p>
         <p> I’m a Computer Science graduate from South Africa with a deep passion for coding and everything technology-related.</p>
         <p>Whether it’s building sleek user interfaces, exploring the latest tech trends, or solving real-world problems with code, I’m always excited to dive in and create something meaningful.</p>
@@ -19,7 +24,7 @@ return(
 
 
  </div>
- </div>
+
 
     )
 }
