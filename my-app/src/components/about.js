@@ -1,5 +1,7 @@
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+
+import divider from '../components/divider.png';
+import CircularText from './circle';
 
 function Aboutme (){
 return(
@@ -11,25 +13,17 @@ return(
         <p>Whether it’s building sleek user interfaces, exploring the latest tech trends, or solving real-world problems with code, I’m always excited to dive in and create something meaningful.</p>
         <p>Driven by curiosity and continuous learning, I thrive on transforming ideas into innovative digital experiences</p>
        <p>Thanks for stopping by — let’s build something great together!</p>
-        <hr style={{ height: '2px', backgroundColor: 'black', border: 'none' }} />
+    <div className='prof'>
+  <img src={divider} alt="Ruben Gerber" />
+    </div>
+
+
  </div>
 
     )
 }
 
-function Welcome() {
-    return (
-          <div className='bounce'>
-        <TrackVisibility once>
-          {({ isVisible }) =>
-            isVisible ? (
-              <h1 className="animate__animated animate__fadeInLeftBig">Welcome</h1>
-            ) : null
-          }
-        </TrackVisibility>
-      </div>
-    )
-}
+
 
 
 function Stuff(){
@@ -46,12 +40,31 @@ return(
 
 
 
+function Circle(){
+return(
+<CircularText
+  text="*RUBEN*GERBER"
+  onHover="speedUp"
+  spinDuration={20}
+  className="custom-class"
+/>
+
+
+)
+
+
+
+}
+
+
+
+
 
 
 export default Aboutme;
-export  {Welcome};
-export {Stuff};
 
+export {Stuff};
+export {Circle};
 
 
 

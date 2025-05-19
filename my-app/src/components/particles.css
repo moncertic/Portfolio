@@ -1,0 +1,9 @@
+.particles-container {
+  position: fixed;         /* Sticks to viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;            /* Use viewport width */
+  height: 100vh;           /* Use viewport height */
+  z-index: -1;             /* Behind everything */
+  pointer-events: none;    /* Allows clicks to go through */
+}

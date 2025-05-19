@@ -5,9 +5,51 @@ Body{
 background: white;
 }
 
+.prof {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 200px;           /* Set a height if vertical centering is desired */
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* Aligns <ul> to the right */
+  padding: 10px 20px;
+ 
+}
+
+.navbar a {
+  color: inherit;           /* Inherit color from parent or your design */
+  text-decoration: none;    /* Remove underline */
+  cursor: pointer;          /* Optional: pointer cursor on hover */
+}
+
+.navbar a:hover {
+  color: #333;              /* Optional: change color on hover */
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 40px; /* Space between items */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  padding: 5px 10px;
+  color: inherit;
+  text-decoration: none;
+}
+.prof img {
+  width: 150px;
+  height: 150px;
+}
+
 p{
     font-size: 20px;
-    margin-top: 0;
+    margin: 0;
     font-family:Share Tech;
 
 }
@@ -28,34 +70,17 @@ text-align: center;
 
 }
 
+.custom-class{
 
-.waves {
-  position:relative;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+
+
+
+  
 }
 
-.waves::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0.5rem;
-  height: 0.5rem;
-  background: #160000;
-  border-radius: 50%;
-  transform: translate3d(calc(var(-0.5rem) - 50%), calc(var(50%) - 50%), 0);
-  will-change: transform;
-}
 
-.waves-canvas {
-  display: block;
-  width: 100%;
-  height: 50%;
-}
+
+
+
+
 
