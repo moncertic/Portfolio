@@ -20,7 +20,7 @@ function LandingPage() {
 
 
         <Particles
-    particleColors={['blue', 'blue']}
+    particleColors={['red', 'red']}
     particleCount={200}
     particleSpread={10}
     speed={0.1}

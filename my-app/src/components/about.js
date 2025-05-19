@@ -2,11 +2,11 @@ import 'animate.css';
 
 import divider from '../components/divider.png';
 import CircularText from './circle';
-
+import '../App.css';
 function Aboutme (){
 return(
 
-
+<div className='about'>
  <div className='animate__animated animate__fadeInUp'>
         <p>Hello,my name is Ruben Gerber and I am a developer all the way from ZA.</p>
         <p> I’m a Computer Science graduate from South Africa with a deep passion for coding and everything technology-related.</p>
@@ -18,6 +18,7 @@ return(
     </div>
 
 
+ </div>
  </div>
 
     )
