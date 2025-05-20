@@ -25,8 +25,10 @@ function LandingPage() {
   <div  id='SectionTwo'className='SectionTwo'>
       <Aboutme />
   </div>
-      <Stuff />
 
+  <div  id='SectionThree'className='SectionThree'>
+      <Stuff />
+</div>
 
         <Particles
     particleColors={['red', 'red']}
