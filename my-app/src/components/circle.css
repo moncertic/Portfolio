@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jaro:opsz@6..72&display=swap');
 .circular-text {
   margin-top: 20vh;
   border-radius: 50%;
@@ -6,11 +8,13 @@
   height: 300px;
   font-weight: bold;
   color: black;
-  font-weight: 900;
+  font-weight: 500;
   text-align: center;
   cursor: pointer;
   transform-origin: 50% 50%;
   -webkit-transform-origin: 50% 50%;
+  font-family:"Anton", sans-serif;
+
 }
 
 .circular-text span {

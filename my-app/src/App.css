@@ -81,6 +81,42 @@ rotate: 180deg;
 
 
 }
+
+.Line{
+
+display:flex;
+
+position: relative;
+margin-left: 63%;
+   width: 498px;
+ top: -168.5px;
+  background-color: rgba(7, 2, 2, 0.89);
+ height: 5px;
+
+
+}
+
+.signal{
+display: flex;
+ position: absolute;
+margin-left: 46%;
+top: 270px;
+height: 22%;
+
+
+}
+
+.line{
+
+ position: absolute;
+  top: 50%;
+  width: 39.5%;
+
+  background-color: rgb(24, 22, 20);
+ height: 5px;
+
+}
+
 p{
     font-size: 20px;
     margin: 0;

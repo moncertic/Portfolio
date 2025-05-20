@@ -2,7 +2,7 @@ import Navbar from '../components/navbar';
 import 'animate.css';
 import '../App.css';
 import Aboutme from '../components/about';
-
+import signal from '../components/signal.png';
 import { Stuff } from '../components/about';
 import Particles from '../components/particles';
 import {Circle} from '../components/about';
@@ -13,8 +13,13 @@ function LandingPage() {
 
   
   <Navbar />
+
+ <div  className='middle'>
     <Circle />
-  
+  <img src={signal} alt="Ruben Gerber" className='signal'/>
+<hr  className='line'/>
+<hr  className='Line'/>
+  </div>
       <Aboutme />
       <Stuff />
 
