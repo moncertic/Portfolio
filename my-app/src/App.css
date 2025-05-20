@@ -102,7 +102,7 @@ display: flex;
 margin-left: 46%;
 top: 270px;
 height: 22%;
-
+ animation: pulse 2s ease-in-out infinite;
 
 }
 
