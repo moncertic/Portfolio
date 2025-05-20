@@ -6,6 +6,7 @@ import signal from '../components/signal.png';
 import { Stuff } from '../components/about';
 import Particles from '../components/particles';
 import {Circle} from '../components/about';
+import { ScrollToSection } from '../components/about';
 function LandingPage() {
   return (
   <div>
@@ -14,13 +15,16 @@ function LandingPage() {
   
   <Navbar />
 
- <div  className='middle'>
+ <div  className='Section 1'>
     <Circle />
-  <img src={signal} alt="Ruben Gerber" className='signal'/>
+  <img  onClick={ScrollToSection }  src={signal} alt="Ruben Gerber" className='signal'/>
 <hr  className='line'/>
 <hr  className='Line'/>
   </div>
+
+  <div  id='SectionTwo'className='SectionTwo'>
       <Aboutme />
+  </div>
       <Stuff />
 
 

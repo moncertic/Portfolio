@@ -62,13 +62,18 @@ return(
 
 }
 
-
+function ScrollToSection() {
+  const section = document.getElementById('SectionTwo'); 
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+}
 
 
 
 
 export default Aboutme;
-
+export {ScrollToSection};
 export {Stuff};
 export {Circle};
 
