@@ -3,7 +3,7 @@ import 'animate.css';
 import '../App.css';
 import Aboutme from '../components/about';
 import signal from '../components/signal.png';
-import { Stuff } from '../components/about';
+
 import Particles from '../components/particles';
 import {Circle} from '../components/about';
 import { ScrollToSection } from '../components/about';
@@ -26,9 +26,6 @@ function LandingPage() {
       <Aboutme />
   </div>
 
-  <div  id='SectionThree'className='SectionThree'>
-      <Stuff />
-</div>
 
         <Particles
     particleColors={['red', 'red']}

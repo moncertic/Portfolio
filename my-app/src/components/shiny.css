@@ -2,9 +2,9 @@
   color: #b5b5b5a4; /* Adjust this color to change intensity/style */
   background: linear-gradient(
     120deg,
-    rgba(255, 255, 255, 0) 40%,
+    rgb(62, 3, 226) 40%,
     rgba(158, 13, 13, 0.8) 50%,
-    rgba(255, 255, 255, 0) 60%
+    rgb(11, 236, 198) 60%
   );
   background-size: 200% 100%;
   -webkit-background-clip: text;

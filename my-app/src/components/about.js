@@ -8,11 +8,10 @@ function Aboutme (){
 return(
 
 
- <div id='about' className='animate__animated animate__fadeInUp'>
-  
-  <div className='proffs'>
+ <div id='about'>
+ <div className='proffs'>
   <img src={divider} alt="Ruben Gerber" />
-    </div>
+ </div>
     
         <p>Hi!My name is Ruben Gerber and I am a software developer all the way from ZA.</p>
         <p> I’m a Computer Science graduate  with a deep passion for coding and everything technology-related.</p>
@@ -20,15 +19,15 @@ return(
         <p>Driven by curiosity and continuous learning, I thrive on transforming ideas into innovative digital experiences</p>
        <p>Thanks for stopping by — let’s build something great together!</p>
             <button className='btn' onClick={() => document.getElementById('SectionThree').scrollIntoView({ behavior: 'smooth' })}>
-     <ShinyText text="Just some shiny text!" disabled={false} speed={3} className='custom-class' />
+     <ShinyText text="Projects Created" disabled={false} speed={3} />
             </button>
 
     <div className='prof'>
   <img src={divider} alt="Ruben Gerber" />
-    </div>
+   </div>
+</div>
 
-
- </div>
+ 
 
 
     )
@@ -37,17 +36,6 @@ return(
 
 
 
-function Stuff(){
-return(
-<div className='Projects'>
-<p>Projects Created</p>
-</div>
-
-
-)
-
-
-}
 
 
 
@@ -79,7 +67,6 @@ function ScrollToSection() {
 
 export default Aboutme;
 export {ScrollToSection};
-export {Stuff};
 export {Circle};
 
 

@@ -6,6 +6,12 @@ Body{
 background: white;
 }
 
+.SectionThree{
+
+
+
+}
+
 .prof {
   display: flex;
   justify-content: center; /* Centers horizontally */
@@ -70,6 +76,7 @@ margin-top: 20%;
   height: 200px;  
 margin-left: 49.5%;
 
+
 }
 
 
@@ -121,8 +128,8 @@ p{
     font-size: 20px;
   text-align: center;
     font-family:Noto Sans;
-  bottom: 50px;
-
+ 
+ margin-top: 20px;
 }
 .bounce{
 
@@ -149,7 +156,22 @@ text-align: center;
 
 }
 
+.btn{
 
+  background-color: #0a0a0a; /* Green background */
+  color: white;              /* White text */
+  padding: 12px 24px;        /* Top/bottom, left/right padding */
+  border: none;              /* No border */
+  border-radius: 8px;        /* Rounded corners */
+  font-size: 18px;
+  cursor: pointer;
+
+  font-family: 'Noto Sans', sans-serif;
+
+margin-left: 42.9%;
+margin-top: 8%;
+
+}
 
 
 
