@@ -1,9 +1,8 @@
 import 'animate.css';
 import ShinyText from './shiny';  
 import divider from '../components/divider.png';
-import CircularText from './circle';
 import '../App.css';
-import React from 'react';
+
 
 
 function Aboutme (){
@@ -42,35 +41,13 @@ return(
 
 
 
-function Circle(){
-return(
-<CircularText
-  text="*RUBEN*GERBER"
-  onHover="speedUp"
-  spinDuration={20}
-  className="custom-class"
-/>
 
-
-)
-
-
-
-}
-
-function ScrollToSection() {
-  const section = document.getElementById('SectionTwo'); 
-  if (section) {
-    section.scrollIntoView({ behavior: 'smooth' });
-  }
-}
 
 
 
 
 export default Aboutme;
-export {ScrollToSection};
-export {Circle};
+
 
 
 
