@@ -3,10 +3,11 @@ import 'animate.css';
 import '../App.css';
 import Aboutme from '../components/about';
 import signal from '../components/signal.png';
-
+import InfiniteGallery from '../components/nfiniteGallery';
 import Particles from '../components/particles';
 import {Circle} from '../components/about';
 import { ScrollToSection } from '../components/about';
+
 function LandingPage() {
   return (
   <div>
@@ -25,6 +26,14 @@ function LandingPage() {
   <div  id='SectionTwo'className='SectionTwo'>
       <Aboutme />
   </div>
+
+  <div id='SectionThree' className='SectionThree'>
+    <InfiniteGallery/>
+ 
+</div>
+
+
+
 
 
         <Particles

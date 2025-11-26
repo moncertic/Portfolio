@@ -4,6 +4,8 @@ import divider from '../components/divider.png';
 import CircularText from './circle';
 import '../App.css';
 import React from 'react';
+
+
 function Aboutme (){
 return(
 
@@ -32,6 +34,7 @@ return(
 
     )
 }
+
 
 
 
